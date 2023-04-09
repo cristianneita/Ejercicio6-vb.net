@@ -1,14 +1,14 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Inicio.aspx.vb" Inherits="Ejercicio6.Inicio" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Tensor.aspx.vb" Inherits="Ejercicio6.Tensor" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
@@ -23,8 +23,8 @@
                 </button>
                 <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Metadatos |</a>
-                        <a class="nav-link" href="Tensor.aspx">Tensor Flow |</a>
+                        <a class="nav-link " aria-current="page" href="Inicio.aspx">Metadatos |</a>
+                        <a class="nav-link active" href="Tensor.aspx">Tensor Flow |</a>
                         <a class="nav-link" href="#">Aws Amazon |</a>
                         <a class="nav-link" href="#">El 5G y la tecnología del futuro |</a>
                         <a class="nav-link" href="#">Data Warehouse</a>
@@ -33,40 +33,38 @@
             </div>
         </nav>
     </div>
-    <!--<form id="form1" runat="server">
-        <div>
-        </div>
-    </form>-->
     <div class="container fw-light">
-        <h1 class="fw-light mt-5">MetaDatos</h1>
-        <div class="row"  data-aos="fade-up">
+        <h1 class="fw-light mt-5">Tensor Flow</h1>
+        <div class="row" data-aos="fade-up">
             <div class="col-md-8">
-                <h4 class="fw-light">¿Que son los metadatos?</h4>
+                <h4 class="fw-light">¿Que es Tensor Flow?</h4>
                 <p class="">
-                    Los metadatos son especialmente importantes porque pueden proporcionar información esencial para la gestión y el análisis de grandes cantidades de datos. Los metadatos pueden incluir información sobre la estructura de los datos, el formato de archivo, la ubicación y la fecha de creación, la autoría, los permisos de acceso y otros detalles importantes que permiten la identificación y el uso eficiente de los datos.
+                    TensorFlow es una plataforma de software de código abierto para el desarrollo y entrenamiento de modelos de aprendizaje automático y redes neuronales. Fue desarrollado por Google Brain Team y lanzado en 2015.                   
                     <br />
-                    En la era de Big Data, donde se manejan grandes volúmenes de información, los metadatos son cruciales para la organización, la gestión y la búsqueda de datos. Por ejemplo, los metadatos son esenciales para el funcionamiento de motores de búsqueda como Google, ya que los motores de búsqueda utilizan metadatos para indexar y clasificar el contenido de la web.
+                    La plataforma se basa en un modelo de gráfico computacional, en el que las operaciones matemáticas y los datos se representan como nodos en un grafo y las conexiones entre ellos se denominan tensores. Esto permite una ejecución altamente eficiente de operaciones matemáticas y la capacidad de distribuir el procesamiento en múltiples CPUs o GPUs.
+                    <br />
+                    TensorFlow es ampliamente utilizado en aplicaciones de aprendizaje automático y redes neuronales, incluyendo reconocimiento de voz y de imagen, procesamiento de lenguaje natural, análisis de datos y más. Además, TensorFlow es compatible con varios lenguajes de programación, incluyendo Python, C++, Java, Go y más.
                 </p>
             </div>
             <div class="col-md-4">
-                <img src="https://www.esic.edu/sites/default/files/rethink/780b1ac0-que-son-los-metadatos.jpg" class="img-thumbnail border-0 mt-0" alt="imagen1">
+                <img src="https://i.ytimg.com/vi/yjprpOoH5c8/maxresdefault.jpg" class="img-thumbnail border-0 mt-4 pt-4" alt="imagen1">
             </div>
         </div>
 
-        <div class="row"  data-aos="fade-right">
+        <div class="row" data-aos="fade-right">
             <div class="col-md-5 ">
                 <h1 class="fw-lighter mt-5 pt-5 text-center text-danger-emphasis">Video Informativo de Youtube
                 </h1>
-                <p class="text-center">Autor: OSI SEGURIDAD</p>
+                <p class="text-center">Autor: Aprende Con Lidgi Rodriguez</p>
             </div>
             <div class="col-md-7">
                 <div class="ratio" style="--bs-aspect-ratio: 50%;">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rXYwo3hi-j8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AV2DopzlwcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
 
-        <div class="row mt-5 pt-5"  data-aos="fade-up">
+        <div class="row mt-5 pt-5" data-aos="fade-up">
             <h1 class="fw-lighter mb-4 text-center">Caracteristicas</h1>
             <hr />
 
@@ -74,8 +72,8 @@
                 <div class="card" style="width: 18rem;">
                     <img src="images/imagen1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">1. Describen datos</h5>
-                        <p class="card-text">Los metadatos proporcionan información adicional sobre los datos, como su estructura, formato, autoría y ubicación.</p>
+                        <h5 class="card-title">1. Escalabilidad</h5>
+                        <p class="card-text">TensorFlow está diseñado para ser escalable, lo que significa que puede manejar grandes conjuntos de datos y modelos de aprendizaje automático complejos. </p>
                     </div>
                 </div>
             </div>
@@ -83,9 +81,9 @@
                 <div class="card" style="width: 18rem;">
                     <img src="images/imagen2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">2. Son estructurados</h5>
+                        <h5 class="card-title">2. Flexibilidad</h5>
                         <p class="card-text">
-                            Esto ayuda a estandarizar la forma en que se describen y organizan los datos, lo que puede facilitar su búsqueda y recuperación.<br />
+                            TensorFlow es una plataforma flexible que admite una variedad de modelos de aprendizaje automático, incluidos modelos supervisados, no supervisados y de refuerzo.<br />
                         </p>
                     </div>
                 </div>
@@ -94,13 +92,13 @@
                 <div class="card" style="width: 18rem;">
                     <img src="images/imagen3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">3. Son importantes para la interoperabilidad: </h5>
-                        <p class="card-text">Proporcionan información sobre los datos que puede ser utilizada por diferentes sistemas y aplicaciones.</p>
+                        <h5 class="card-title">3. Abierto y Comunidad </h5>
+                        <p class="card-text">TensorFlow es una plataforma de software de código abierto, lo que significa que su código fuente está disponible para cualquier persona para ver, usar y modificar.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="fw-light mx-5 my-4"  data-aos="fade-up">
+        <div class="fw-light mx-5 my-4" data-aos="fade-up">
             <h1 class="fw-light text-center">Información Adicional</h1>
             <div class="row mt-3 text-center">
                 <div class="col-md-6">
