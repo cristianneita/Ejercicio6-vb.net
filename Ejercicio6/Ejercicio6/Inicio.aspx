@@ -25,9 +25,9 @@
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Metadatos |</a>
                         <a class="nav-link" href="Tensor.aspx">Tensor Flow |</a>
-                        <a class="nav-link" href="#">Aws Amazon |</a>
-                        <a class="nav-link" href="#">El 5G y la tecnología del futuro |</a>
-                        <a class="nav-link" href="#">Data Warehouse</a>
+                        <a class="nav-link" href="aws.aspx">Aws Amazon |</a>
+                        <a class="nav-link" href="5g.aspx">El 5G y la tecnología del futuro |</a>
+                        <a class="nav-link" href="data.aspx">Data Warehouse</a>
                     </div>
                 </div>
             </div>
