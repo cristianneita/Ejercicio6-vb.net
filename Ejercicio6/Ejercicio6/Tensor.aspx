@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+    <form id="form1" runat="server">
     <!-- Barra de navegación-->
     <div class="fw-light">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -23,11 +24,11 @@
                 </button>
                 <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link " aria-current="page" href="Inicio.aspx">Metadatos |</a>
-                        <a class="nav-link active" href="Tensor.aspx">Tensor Flow |</a>
-                        <a class="nav-link" href="aws.aspx">Aws Amazon |</a>
-                        <a class="nav-link" href="5g.aspx">El 5G y la tecnología del futuro |</a>
-                        <a class="nav-link" href="data.aspx">Data Warehouse</a>
+                        <asp:Button ID="btnMeta" runat="server" Text="Metadatos |" class="nav-link " aria-current="page" />
+                        <asp:Button ID="btnTensor" runat="server" Text="Tensor |" class="nav-link active " aria-current="page" />
+                        <asp:Button ID="btnAws" runat="server" Text="AWS |" class="nav-link " aria-current="page" />
+                        <asp:Button ID="btn5g" runat="server" Text="El 5G y la tecnología del futuro |" class="nav-link " aria-current="page" />
+                        <asp:Button ID="btnData" runat="server" Text="Data Warehouse" class="nav-link  " aria-current="page" />
                     </div>
                 </div>
             </div>
@@ -107,7 +108,8 @@
                         <div>
                             <iframe width="300" height="60" src="https://vocaroo.com/embed/1oHm7XF1TDtH?autoplay=0" frameborder="0" allow="autoplay"></iframe>
                             <br>
-                            <a href="https://voca.ro/1oHm7XF1TDtH" title="Grabadora de voz de Vocaroo" target="_blank">Ver en Vocaroo &gt;&gt;</a></div>
+                            <a href="https://voca.ro/1oHm7XF1TDtH" title="Grabadora de voz de Vocaroo" target="_blank">Ver en Vocaroo &gt;&gt;</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -119,7 +121,7 @@
         </div>
 
     </div>
-
+        </form>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
